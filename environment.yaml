@@ -1,0 +1,15 @@
+name: ainotes
+channels:
+  - pytorch
+#  - pytorch-nightly  # for mps on MacBook M1; delete if supported
+  - defaults
+dependencies:
+  - pip
+  - pytorch
+  - torchvision
+  - jupyterlab
+  - pip:
+    - matplotlib
+    - opencv-python
+    - ipywidgets
+    - tqdm

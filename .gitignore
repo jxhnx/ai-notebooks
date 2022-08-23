@@ -1,5 +1,11 @@
-*.DS_STORE
-*.ipynb_checkpoints
-
+# Folders
 /data
-/img
+
+# Compiled / optimized / DLL / OS / temporary files
+__pycache__/
+*.py[cod]
+*.DS_Store
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
