@@ -4,12 +4,16 @@ channels:
 #  - pytorch-nightly  # for mps on MacBook M1; delete if supported
   - defaults
 dependencies:
+#  - nomkl  # OpenMP fix for macOS for cv2+torch; works too if cv2 is not imported with torch in the same file
   - pip
   - pytorch
-  - torchvision
+  - torchvision>=0.13
   - jupyterlab
+  - seaborn
   - pip:
     - matplotlib
+    - pandas
     - opencv-python
     - ipywidgets
     - tqdm
+    - torchviz

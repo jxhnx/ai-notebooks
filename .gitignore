@@ -1,6 +1,3 @@
-# Folders
-/data
-
 # Compiled / optimized / DLL / OS / temporary files
 __pycache__/
 *.py[cod]
