@@ -19,3 +19,4 @@ dependencies:
     - torchviz
     - torchsummary
     - torchinfo
+    - git+https://github.com/pvigier/perlin-numpy  # Perlin noise generator
